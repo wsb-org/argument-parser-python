@@ -1,0 +1,22 @@
+# The ignore list - ArgumentParser
+# ----
+# 1. Ignore all the cache and tests files as well as directories.
+# 2. Ignore all the datafiles, database files and folders (including JSON files and folders).
+# ----
+
+# Ignoring the tests and cache files as well as directories
+test/
+tests/
+__pycache__/
+
+# Ignoring the database files and directories
+data/
+databases/
+database/
+*.db
+*.database
+*.sqlite3
+
+# Ignoring the json files and directories
+json/
+*.json
